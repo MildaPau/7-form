@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+#333333
+*/
+
+body{
+    background-color: black;
+}
+
+main{
+    background-image: url(https://images.unsplash.com/photo-1553152531-b98a2fc8d3bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 900px;
+    height: 900px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+form{
+    max-width: 600px;
+    height: 400px;
+    background-color: #EEEEEE;
+    margin: auto;
+    padding: 20px;
+}
+form h1{
+    text-align: center;
+    margin: 20px 0 30px;
+}
+form input,
+form label,
+form textarea {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: revert;
+    background-color: #eee;
+    padding: 6px 0;
+    margin-bottom: 10px;
+}
+form label{
+    margin-top: 6px;
+}
+
+form button{
+    padding: 7px 40px;
+    background-color: #333;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+/* submited.html */
+.opasity-bg{
+    background-color: #EEEEEE;
+    opacity: 0.8;
+}
+#submited form {
+    padding-top: 80px;
+}
+
+#submited-btn {
+    display: block;
+    margin: 0 auto;
+}
